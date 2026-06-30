@@ -24,3 +24,6 @@ docker-compose.override.yml
 
 # macOS
 .DS_Store
+
+# stray root screenshot (committed copy lives in docs/images/)
+/flickle-screenshop.png

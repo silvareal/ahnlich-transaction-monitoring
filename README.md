@@ -11,6 +11,12 @@ similarity search over **custom structured-data vectors**.
 > metadata-aware similarity search over custom structured-data vectors._ See
 > [`docs/FRAUD_ENGINEER_NOTES.md`](docs/FRAUD_ENGINEER_NOTES.md) for the honest analysis.
 
+![Ahnlich Anomaly Console — a flagged whale transaction with its neighbour basis and derived reasons](docs/images/console.png)
+
+_The operator console: a $90k whale submitted (left) returns a **FLAGGED** verdict
+(right) with the 5/5 neighbour vote, the nearest-neighbour basis, derived reasons,
+and the measured Ahnlich k-NN query time. Live decision feed below._
+
 ## The problem
 
 A rules engine only catches what someone already thought to encode. The idea here:
